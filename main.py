@@ -1,7 +1,6 @@
 from typing import List
 
 import cvxpy
-import functools
 
 
 def Nash_budget(total: float, subjects: List[str], preferences: List[List[str]]):
